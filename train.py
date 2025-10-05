@@ -23,4 +23,4 @@ if __name__ == "__main__":
     mse = evaluate_model(trained_dt_model, X_test_scaled, y_test)
 
     # Display result
-    print(f"Decision Tree Regressor - Average MSE on Test Set: {mse:.4f}") # [cite: 20]
+    print(f"Decision Tree Regressor - Average MSE on Test Set: {mse:.4f}") 
