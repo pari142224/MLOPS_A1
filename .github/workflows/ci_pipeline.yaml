@@ -4,7 +4,7 @@ name: ML Workflow CI
 on:
   push:
     branches:
-      - [cite_start]kernelridge # Trigger on push to this branch [cite: 26]
+      - kernelridge # Trigger on push to this branch [cite: 26]
 
 jobs:
   build-and-test:
